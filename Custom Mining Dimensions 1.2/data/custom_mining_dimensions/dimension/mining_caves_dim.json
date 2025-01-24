@@ -1,0 +1,63 @@
+{
+  "type": "custom_mining_dimensions:caves_dim",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:caves",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "minecraft:lush_caves",
+          "parameters": {
+            "temperature": [
+              -0.8,
+              -1
+            ],
+            "humidity": 0,
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": 0.5,
+            "weirdness": 0.5,
+            "depth": 0.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:dripstone_caves",
+          "parameters": {
+            "temperature": [
+              0,
+              1
+            ],
+            "humidity": 0,
+            "continentalness": [
+              1,
+              -1
+            ],
+            "erosion": 0.5,
+            "weirdness": 0.3,
+            "depth": 0.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:deep_dark",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": [
+              1.5,
+              2
+            ],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": -2,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}
