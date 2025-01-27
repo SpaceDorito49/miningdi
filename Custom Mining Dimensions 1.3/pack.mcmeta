@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Adds custom mining dimensions for sand, terracotta, and overworld ores",
+    "pack_format": 48,
+    "supported_formats": [48, 57]
+  }
+}
